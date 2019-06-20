@@ -1,0 +1,60 @@
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"/";
+}
+.breadcrumb{
+    background-color: transparent;
+
+}
+
+/*.hair_width_two{
+    width:1180px;
+}*/
+.i_m{
+    position: relative;
+}
+.i_state{
+    width: 353.33px;
+    position: absolute;
+    top:380px;
+    left:230px;
+}
+
+/*°´Å¥
+.hair_bt,.hair_product_bt{
+    width: 171.66px;height:41px;
+    background-color:#28bdb7;
+    border:1px solid #28bdb7;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+}
+.hair_bt:hover,.hair_product_bt:hover{
+    background-color: #1f938e;
+    border-color: #1f938e;
+}
+.hair_product_bt{
+    width: 100px;height:41px;
+}
+*/
+.product_title{
+    line-height: 1.2;
+    color: #000;
+    font-weight: 400;
+}
+.a_border{
+    border: 1px solid #c4c4c4;
+    height:448.84px;
+}
+.a_border_two{
+    border: 1px solid #c4c4c4;
+}
+.a_border_therr{
+    border: 1px solid #c4c4c4;
+    height:502.25px;
+}
+.h_width_two{
+    width: 380px;height:312px;
+}
+.hair_state_width{
+    width: 460px;
+}

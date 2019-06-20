@@ -1,0 +1,27 @@
+.description_two{
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: 300;
+    text-transform: none;
+    margin-top: 10px;
+}
+.hr_color{
+    border:0.5px solid #000;
+}
+.a_border_two{
+    border: 1px solid #c4c4c4;
+}
+/*商品标题*/
+.product_title{
+    line-height: 1.2;
+    color: #000;
+    font-weight: 400;
+}
+.face_state_width{
+    width: 460px;
+}
+.a_border_therr{
+    border: 1px solid #c4c4c4;
+    height:502.25px;
+}

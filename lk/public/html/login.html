@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 设置视口-->
+    <meta name="viewport" content="width=device-width,intial-scale=1"/>
+    <!-- 导入css-->
+    <link rel="stylesheet" href="../../css/bootstrap.css"/>
+    <!-- 导入3个js文件-->
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/login.css"/>
+    <link rel="stylesheet" href="../css/comm.css"/>
+</head>
+<body>
+<div class="container-full login_width_lg">
+    <div class="row">
+        <div class="col-md-10 col-sm-12 mt-2 ">
+            <img src="../img/header/log.jpg" alt=""/>
+        </div>
+        <div class="col-md-2 col-sm-12 mt-5">
+            <p class="text-center m-0">DigiCert.com<hr class="m-0 mt-1"/></p>
+        </div>
+        <div class="col-md-7 col-sm-12 mt-5 pr-0">
+            <img src="../img/login/1.login.jpg" alt=""/>
+        </div>
+        <div class="col-md-5 col-sm-12 mt-5 pl-0">
+            <div class="createAccount">
+                <div class="m-4">
+                    <span class="h2 my-2">免费注册</span>
+                    <span class="float-right my_font_size">没有账号?<a class="h_color text-right" href="#">免费注册!</a></span>
+                </div>
+                <form action="/accountCreate.account" method="post" id="accountCreationForm" class="m-4">
+                    <ul id="account-payment-card-details" class="list-unstyled text-muted my_font_size">
+                        <li class="createAccount_li">
+                            <label for="customerName" class="mt-2">您的姓名</label>
+                            <input type="text" id="customerName" name="customerName" class="float-right"/>
+                        </li>
+                        <li class="createAccount_li mt-4">
+                            <label for="" class=" float-left mt-2">邮箱地址</label>
+                            <input type="text" id="" name="" class="float-right"/>
+                        </li>
+                        <li class="createAccount_li mt-4">
+                            <label for="" class=" float-left mt-2">确认电子邮箱</label>
+                            <input type="text" id="" name="" class="float-right"/>
+                        </li>
+                        <li class="createAccount_li mt-4">
+                            <label for="" class=" float-left mt-2">密码</label>
+                            <input type="text" id="" name="" class="float-right"/>
+                        </li>
+                        <li class="createAccount_li mt-4">
+                            <label for="" class=" float-left mt-2">确认密码</label>
+                            <input type="text" id="" name="" class="float-right"/>
+                        </li>
+                        <li class="createAccount_li mt-4">
+                            <label for="" class=" float-left mt-2">推荐人代码</label>
+                            <input type="text" id="" name="" class="float-right"/>
+                        </li>
+                        <li class="createAccount_li mt-4">
+                            <p class=" float-right mt-2"> 注册账号，即表示同意我们的<a class="h_color" href="#">服务条款</a>和 <a class="h_color" href="#">隐私条款</a></p>
+                        </li>
+                        <button class="button_login">免费注册</button>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

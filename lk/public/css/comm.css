@@ -1,0 +1,81 @@
+/*手写媒体查询，控制iframe的宽高*/
+.my_header,.my_footer{width:100%;}
+@media screen and (min-width:992px){
+    .my_header{height:16rem}
+    .my_footer{height:37rem}
+}
+@media screen and (max-width:991px){
+    .my_header{height:15rem}
+    .my_footer{height:50rem}
+}
+/*去下线*/
+.list_a:hover{
+    text-decoration: none;
+}
+
+.my_font_size{
+    font-size: 0.9rem;
+}
+.h_color{
+    color:#34b3a1;
+}
+.h_color:hover{
+    color:#34b3a1;
+}
+/*二级宽度*/
+.w_two{
+    width:1180px;
+}
+/*body部分的导览*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"/";
+}
+.breadcrumb{
+    background-color: transparent;
+
+}
+/*二楼的主图*/
+.i_m{
+    position: relative;
+}
+.i_state{
+    width: 353.33px;
+    position: absolute;
+    top:380px;
+    left:230px;
+}
+
+/*按钮*/
+._bt,._product_bt{
+    width: 171.66px;height:41px;
+    background-color:#28bdb7;
+    border:1px solid #28bdb7;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+}
+._bt:hover,._product_bt:hover{
+    background-color: #1f938e;
+    border-color: #1f938e;
+}
+._product_bt{
+    width: 100px;height:41px;
+}
+
+/*二楼中3div的宽度*/
+.width_two{
+    width: 350.66px;
+}
+
+/*第二种按钮*/
+.purchase_two{
+    width: 100px;height:41px;
+    background-color:#fff;
+    border: 1px solid #333;
+    font-size: 16px;
+    color: #333;
+}
+.purchase_two:hover{
+    background-color:#28bdb7;
+    border: 1px solid #28bdb7;
+}

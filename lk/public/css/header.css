@@ -1,0 +1,90 @@
+/*.h_color{
+    color:#34b3a1;
+}
+.h_color:hover{
+    color:#34b3a1;
+}
+*/
+.header_width{
+    width:1200px;
+}
+.header_width_two{
+    width:1180px;
+}
+
+.heade_margin{
+    margin:0 auto;
+}
+/*�������ʽ*/
+.banner{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    border-radius: 50%;
+    background-image: url(../img/header/banner.png);
+    background-size: 19px 20px;
+}
+.special_offer{
+    background-color:#b00e37;
+}
+.my_bg{
+    background-color: #f0f0f0;
+}
+.my_CN{
+    color:black;
+}
+.my_CN:hover{
+    color:black;
+}
+.gouwuche{
+    width:92px;
+    height: 38px;
+    border:1px solid #34b3a1;
+}
+.dhl_font_size{
+    font-size: 0.6rem;
+}
+.ggl_color{
+    background-color:#28bdb7;
+}
+.ggl_color:hover,.ggl_font_size:hover{
+    background-color:#1f938e;
+    text-decoration:none;
+}
+.ggl_font_size{
+    font-size: 1.2rem;
+}
+
+
+/* 下拉列表的样式 */
+.dropdown-menu {
+    display: block !important;
+}
+
+.dropdown a {
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+		}
+
+.dropdown-menu {
+	width: 200px;
+	list-style: none;
+	margin: 0px;
+    padding: 0;
+	/* border: 1px solid #aaa; */
+	/* box-shadow: 5px 5px 6px #000; */
+	/* display: none; */
+	height:100px;
+	overflow: hidden;
+	transition:all .5s linear;
+}
+
+.dropdown-menu a {
+	padding: 6px 20px;
+	width: 160px
+    }
+    
+.dropdown-menu li:hover {
+	background: #ddd
+}

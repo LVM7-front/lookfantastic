@@ -1,0 +1,127 @@
+
+/*�ֲ�ͼ���Ҽ�ͷ����ʽ*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;
+    height:20%;
+    background: #aaa;
+    border-radius: 0.25rem;
+    top:40%;
+}
+.carousel-indicators li{
+    width:0.75rem;
+    height: 0.75rem;
+    background-color: #fff;
+    border-radius: 50%;
+    border:1px solid #333;
+    margin:0 4px;
+}
+/*�ֲ�ָʾ������ʽ*/
+.carousel-indicators .active{
+    background-color: #333;
+}
+/*�ֲ�ͼ���µĿ��ߴ�*/
+.body_width_lg{
+    width: 1180px;
+    margin:0 auto;
+}
+
+/*ȥ����*/
+.list_a{
+    text-decoration:none;
+    display: inline;
+}
+/*��Ʒ����*/
+.product_title{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 400;
+}
+.description{
+    width: 542px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: 300;
+    text-transform: none;
+    margin-top: 10px;
+}
+/*һ¥ͼƬ����*/
+/* .width_one{
+    width: 542px;
+} */
+/*������ť*/
+.purchase{
+    width: 100px;height:41px;
+    background-color:#28bdb7;
+    border:1px solid #28bdb7;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+}
+.purchase:hover{
+    background-color: #1f938e;
+    border-color: #1f938e;
+}
+/*
+.purchase_two{
+    width: 100px;height:41px;
+    background-color:#fff;
+    border: 1px solid #333;
+    font-size: 16px;
+    color: #333;
+}
+.purchase_two:hover{
+    background-color:#28bdb7;
+    border: 1px solid #28bdb7;
+}
+*/
+.description_two{
+      font-size: 14px;
+      line-height: 1.2;
+      color: #333;
+      font-weight: 300;
+      text-transform: none;
+      margin-top: 10px;
+  }
+.hr_color{
+    border:0.5px solid #000;
+}
+/*��¥��div�Ŀ���
+.width_two{
+    width: 350.66px;
+}*/
+/*5¥��div�Ŀ���*/
+.width_three{
+    width: 255px;
+}
+/*��ť*/
+.purchase_three{
+    width:542px;height:86px;
+    color:#28bdb7;
+    border:4px solid #28bdb7;
+    background-color: #fff;
+    font-size: 42px;
+}
+.purchase_three:hover{
+    background-color:#28bdb7;
+    color:#fff;
+}
+
+
+.button_text{
+    font-size: 16px;
+    color:#fff;
+    width:227px;height: 41px;
+    border:1px solid #000;
+    background-color: #000;   
+}
+.button_text:hover{
+    background-color: #28bdb7;
+    border:4px solid #28bdb7;
+}
+.button_item{
+    display: flex;
+    justify-content: space-around;
+}

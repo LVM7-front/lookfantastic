@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!--导入css文件-->
+    <link rel="stylesheet" href="../../css/bootstrap.css" />
+    <!--导入JS文件，按照这顺序-->
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/comm.css" />
+</head>
+
+<body>
+    <div class="container-full">
+        <!-- 1.头的第一行-->
+        <div class="my_bg ">
+            <div class="heade_margin header_width">
+                <div class="row mx-0 my_font_size">
+                    <div class="col-md-2 col-sm-12 p-0 mt-2">
+                        <span class="pr-1">您好</span>
+                        <span><a class="h_color" href="#">请登录</a></span>
+                    </div>
+                    <div class="col-md-7 col-sm-12 p-0 mt-1">
+                        <span><a class="h_color" href="#">英国直邮</a></span>
+                        <span><a class="h_color" href="#">阳光清关</a></span>
+                        <img src="../img/header/01_header.png" alt="" />
+                        <img src="../img/header/02_header.png" alt="" />
+                    </div>
+                    <div class="col-md-3 col-sm-12 p-0 ">
+                        <span><a class="h_color" href="#">帮助</a></span>
+                        <span><a class="h_color pl-1" href="#">我的账号</a></span>
+                        <span><a class="h_color pl-1" href="#">关注公众号</a></span>
+                        <span><a href="#"><img src="../img/header/03_header.png" alt="" /></a></span>
+                        <span><a class="my_CN" href="#">CN - ¥</a></span>
+                        <!-- 圆形国旗没有做-->
+                        <span><a class="banner mt-2" href="#"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--2.头的第二行-->
+        <div class="header_width heade_margin">
+            <div class="row bg-white mx-0 mt-2 ">
+                <div class="col-md-4 col-sm-12 p-0">
+                    <a href="#"><img src="../img/header/log.jpg" alt="" /></a>
+                </div>
+                <div class="col-md-7 col-sm-12 p-0">
+                    <div class="input-group w-75">
+                        <input class="form-control mt-4 px-0 " type="text" />
+                        <a href="#"><img class="mt-4" src="../img/header/sousuo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-md-1 col-sm-12 w-100 p-0">
+                    <div class="btn btn-light gouwuche mt-4">购物车(0)</div>
+                </div>
+            </div>
+        </div>
+        <!--3.头的第三行-->
+        <div class="bg-dark">
+            <div class="heade_margin header_width">
+                <ul class="nav justify-content-between mt-3 my_font_size">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white active special_offer" href="#">优惠活动</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">限时出清</a></li>
+                            <li><a href="#">折扣码清单</a></li>
+                            <li><a href="#">超值套装篇</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">品牌一览</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">新品上市</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">美容护肤</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">美发护发</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">美容彩妆</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">美容仪</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">身体护肤</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">男士</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">美妆礼盒</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">博客</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--公告栏-->
+        <div class="text-center">
+            <div class="header_width_two ggl_color heade_margin mt-4 ">
+                <div class="w-100 py-1">
+                    <a class="text-white font-weight-bold ggl_font_size" href="#">享受 85 折 + 购满￥688 即可获赠化妆包 ！折扣码：LFCN15
+                        （*部分产品不参加）</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 引入jQuery -->
+    <script src="../../js/jquery-1.11.3.js"></script>
+    <script>
+        $(".dropdown")
+        .mouseover(function(){
+            $(".dropdown-menu").css("height",120)
+        })
+        .mouseout(function(){
+            $(".dropdown-menu").css("height",0)
+        })
+    </script>
+</body>
+
+</html>
